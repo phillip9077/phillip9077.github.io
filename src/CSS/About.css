@@ -1,24 +1,27 @@
 .main-body {
+    background-color: #0089de;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    padding: 50px 0px;
-    width: 100%;
-    height: 95vh;
-    box-sizing: border-box;
-    background-color: #8ecae6;
+    justify-content: space-between;
 }
 
 .about-img {
-    margin: 0px 0px 0px 50px;
+    margin: 20px 0px 50px 0px;
 }
 
-.about-text {
-    margin: 0px 0px 0px 50px;
+.about-text-container {
+    margin: 0px 0px 0px 0px;
 }
 
+.about-title {
+    color: #FFFFFF;
+    margin: 0px 0px 20px 0px;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+}
 
 .body-list {
     text-align: left;
@@ -29,13 +32,14 @@
     height: 70vh;
 }
 
+.body-list li {
+    color: #FFFFFF;
+}
+
 .body-list a {
     text-decoration: none;
     transition: 0.5s;
-}
-
-.body-list a:hover {
-    
+    color: #ffe600;
 }
 
 .self-intro {

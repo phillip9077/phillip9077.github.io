@@ -1,7 +1,22 @@
-.passions-body {
+.passions-container {
+    display: flex;
+    flex-direction: column;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     padding: 0px 250px 0px 250px;
+    background-color: #0089de;
+}
+
+.passions-title {
+    color: #FFFFFF;
+    margin: 0px 0px 20px 0px;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+}
+
+.passions-subtitle {
+    color: #ffe600;
+    margin: 0px 0px 5px 0px;
 }
 
 .passions-pc {

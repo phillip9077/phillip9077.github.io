@@ -1,55 +1,57 @@
-.homepage {
-    width: 100vw;
-    height: 100vh;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #8ecae6;
+.homepage-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0089de;
 }
 
-.homepage img {
-    border-radius: 10%;
-    margin: -100px 0px 50px 0px;
+.homepage-img {
+  border-radius: 10%;
+  margin: -100px 0px 50px 0px;
+}
+
+.homepage-text-container {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .homepage-title {
-    font-family: 'Open Sans', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  margin: 0px 0px 25px 0px;
+  font-size: 3em;
+  color: #FFFFFF;
 }
 
-.homepage-title h1 {
-    margin: 0px 0px 25px 0px;
-    font-size: 3em;
+.homepage-subtitle {
+  margin: 0px 0px 40px 0px;
+  color: #FFFFFF;
 }
 
-.homepage-title h2 {
-    margin: 0px 0px 40px 0px;
+.homepage-button {
+  animation: updown-anim 2s ease infinite;
+  transition: 0.5s;
 }
 
-.homepage-title a {
-    animation: updown-anim 2s ease infinite;
-    transition: 0.5s;
-}
-
-.homepage-title a:hover {
+.homepage-button a:hover {
+  background-color: #272727;
 }
 
 @keyframes updown-anim {
-    0% {
-      transform: translateY(-20%);
-    }
-  
-    50% {
-      transform: translateY(20%);
-    }
-  
-    100% {
-      transform: translateY(-20%);
-    }
+  0% {
+    transform: translateY(-20%);
   }
+  
+  50% {
+    transform: translateY(20%);
+  }
+  
+  100% {
+    transform: translateY(-20%);
+  }
+}
 

@@ -1,10 +1,14 @@
+* {
+    margin: 0;
+}
+
 .navbar {
     font-family: 'Open Sans', sans-serif;
     height: 5vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #8ecae6;
+    background-color: #0089de;
 }
 
 .navbar a {

@@ -9,7 +9,7 @@ function About() {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="temp">
             <Header />
             <div className="main-body">
-                <img className="about-img" src={me2} alt="me in boston commons" width="auto" height="640px"></img>
+                <img className="about-img" src={me2} alt="me in boston commons" width="auto" height="600px"></img>
                 <div className="about-text-container">
                     <h2 className="about-title">Things you wouldn't know about just from reading my resume:</h2>
                     <ol className="body-list">

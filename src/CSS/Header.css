@@ -12,11 +12,25 @@
 }
 
 .navbar a {
-    transition: 0.5s;
-    font-size: 20px;
+    color: #FFFFFF;
     text-decoration: none;
+    letter-spacing: 0.15em;
+  
+    display: inline-block;
+    padding: 0px 0px;
+    position: relative;
 }
 
-.navbar a:hover {
-    
+.navbar a:after {
+    background: none repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 2px;
+    background: #ffe600;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.navbar a:hover:after {
+    width: 100%;
 }

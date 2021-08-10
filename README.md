@@ -2,4 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-I want to use this website as a way for recruiters to know more about me as a person outside of school and work. What you don't see in my resume is what you should see here with more insight. I hope you enjoy the visit!
+I developed this React.js website as an entry point for recruiters to know more about me as a person outside of school and work. What you don't see in my resume is what you should see here, with more insight.
+
+I will be constantly trying to improve this website when I have time to update my current information as well as optimizing the UI/UX design (I am not a design major so bear with me :D). I hope you enjoy the stay and I welcome any constructive feedback!
